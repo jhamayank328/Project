@@ -15,7 +15,7 @@ body {
 }
 
 button {
-    background-color: rebeccapurple;
+    background-color: Red;
     border: none;
     color: white;
     position: fixed;
@@ -30,7 +30,7 @@ button.active {
 }
 
 nav {
-    background-color: rebeccapurple;
+    background-color:Black;
     position: fixed;
     top: 0;
     right: 0;
