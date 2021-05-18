@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Ranchers&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+
+}
+.logo{
+    font-size: 0.5cm;
+    font-family: ''Princess Sofia', cursive;
+}
+
+.brand-name-large {
+    font-size: 10em;
+    
+}
+.brand-name {
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Princess Sofia', cursive;
+    font-weight: normal;
+    color: black;
+   
+}
+.content-section {
+    margin: 10px;
+  
+    flex-wrap: wrap;
+    padding:0 4px;
+}
+
+.container {
+    margin-left: 28%;
+    max-width:1000px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+        display:block;
+ 
+ 
+}
+.Container div {
+    display: flex;
+    position: absolute;
+    background: #ccc;
+    outline: 1px dashed #000
+}
+html{
+    scroll-behavior: smooth;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+   display: block;
+
+
+}
+.main-header {
+    background-color: #e72626;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Reggae One', cursive;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    }
+    
+  
+   
+    .section-header{
+        text-align: center;
+        padding: 20px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+    .shop-product {
+        display: flex;
+        flex-direction: row;
+        padding: initial;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+ 
+    
+    
+    .shop-product-title {
+        display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       text-align: center;
+       font-weight: bold;
+       font-size: 1.5em;
+    
+       margin: 30px;
+        font-family: 'Reggae One', cursive;
+    
+    }
+    
+    .shop-product-image{
+        align-content: end;
+        width: 100px;
+        height: 150px;
+        box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+        border: groove;
+    
+      
+    }
+    .shop-product-price {
+        display: flex;
+         
+        color: #001f3f;
+    }
+    
+    .shop-product-Details{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+    }
+ 
+.btn{
+    position: relative;
+   
+    display: inline-flex;
+    align-items: center;
+    text-align:left;
+    justify-content: center;
+
+    cursor: pointer;
+    outline: none;
+    transition-property: background , box-shadow;
+    transition-duration: 0.35s;
+}
+
+    
+   
+.btn-primary {
+
+   background: #e62727;
+}
+
+.btn-primary:hover {
+    background-color:#5526c5;
+}
+
+
+  .cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 50vh;
+}
+.box{
+    width: 90px;
+    height: 70px;
+    position: relative;
+    margin: 0 10px;
+}
+.icon-box, .inner-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #c32aa3;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.ib-t{
+    background: #1da1f2;
+}
+.ib-g{
+    background: #333;
+}
+.ib-w{
+    background: #25d366;
+}
+.box:hover .icon-box{
+    transform: translateY(-30px);
+}
+.inner-box{
+    background: #fffeff;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: -1;
+    color: rgb(41, 41, 41);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082);
+}
+.inner-box p{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
